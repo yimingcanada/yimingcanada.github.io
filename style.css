@@ -1,13 +1,19 @@
 body {
 background: #333333;
-
-
  }
  
+#wrapper {
 
+background: #333333;
+	
+   width: 1000px;
+	height: 500px;
+	Margin-left: auto;
+    margin-right: auto;
+}
  
 #name{
-text-allign: center;
+
 color: #fff986;
 font-family: 'Open Sans', serif;
 font-size: 66px;
@@ -17,23 +23,23 @@ height: 145px;
  }
 
 #school{
-text-allign: center;
-color: #fff986;
+
+color: #ccc;
 font-family: 'Open Sans', serif;
 font-size: 40px;
 font-weight: light;
 height:50px;
  }
  #program{
-text-allign: center;
-color: #fff986;
+
+color: #ccc;
 font-family: 'Open Sans', serif;
 font-size: 40px;
 font-weight: light;
  }
 
 #footer{
-text-allign: center;
+color: #fff986;
 font-family: 'Open Sans', serif;
 font-size: 20px;
 color: #f986ff;
