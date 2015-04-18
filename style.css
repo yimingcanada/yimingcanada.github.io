@@ -1,11 +1,11 @@
 body {
 background: #333333;
+
  }
  
 #wrapper {
 
 background: #333333;
-	
    width: 1000px;
 	height: 500px;
 	Margin-left: auto;
@@ -14,34 +14,54 @@ background: #333333;
  
 #name{
 
-color: #fff986;
-font-family: 'Open Sans', serif;
-font-size: 66px;
-font-weight: light;
-height: 145px;
-
+color: #f5f5f5;
+font-family: 'Quicksand', sans-serif;
+font-size:  27px;
+font-weight: 300;
+height: 80px
  }
 
-#school{
-
-color: #ccc;
-font-family: 'Open Sans', serif;
-font-size: 40px;
-font-weight: light;
-height:50px;
- }
- #program{
-
-color: #ccc;
-font-family: 'Open Sans', serif;
-font-size: 40px;
-font-weight: light;
- }
 
 #footer{
-color: #fff986;
-font-family: 'Open Sans', serif;
+color: #f5f5f5;
+font-family: 'Quicksand', sans-serif;
 font-size: 20px;
-color: #f986ff;
+font-weight: 300;
 
+}
+
+a.homepage:hover {
+ color: none;
+}
+a.homepage:link {
+ color: #f5f5f5;
+}
+a.homepage:active {
+ color: #f5f5f5;
+}
+a.homepage:active {
+ color: #f5f5f5;
+}
+a.homepage:visited {
+ color: #f5f5f5;
+}
+
+ 
+a:link {
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color:  #fff986;
+}
+
+/* visited link */
+a:visited {
+    color: #fff986;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f5f5f5;
+	  background-color: none;
 }
